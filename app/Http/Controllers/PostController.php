@@ -42,4 +42,9 @@ class PostController extends Controller
             return 'data successfully delete';
         }
     }
+
+    public function add1(){
+
+        return view('home');
+    }
 }
